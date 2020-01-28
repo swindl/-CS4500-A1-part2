@@ -1,0 +1,3 @@
+[submodule "cwc_object_string"]
+	path = cwc_object_string
+	url = https://github.com/chasebish/cwc_object_string.git
