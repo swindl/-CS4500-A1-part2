@@ -1,1 +1,1 @@
-https://github.ccs.neu.edu/nswin/-CS4500-A1-part2.git
+https://github.com/swindl/-CS4500-A1-part2
