@@ -1,12 +1,13 @@
 // Lang::CwC
 
+#include <stdio.h>
 #include "object.h"
 #include "queue.h"
 #include "string.h"
 
 // clang-format off
-void FAIL() { /** exit 1 */ }
-void OK(const char* m) { /** print m */ }
+void FAIL() { exit(1);  }
+void OK(const char* m) { printf("%s\n", m }
 void t_true(bool p) { if (!p) FAIL(); }
 void t_false(bool p) { if (p) FAIL(); }
 // clang-format on
